@@ -1,0 +1,18 @@
+{
+    "version": "1.0.0",
+    "name": "cordova-browser-launcher",
+    "cordova_name": "BrowserLauncher",
+    "description": "Cordova Plugin to Open URL's in Android System Browser",
+    "license": "Apache 2.0",
+    "keywords": [
+        "google",
+        "chrome",
+        "launcher",
+        "browser",
+		"firefox",
+		"opera",
+		"link",
+		"url",
+    ],
+    "engines": []
+}

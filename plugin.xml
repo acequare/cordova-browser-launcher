@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-browser-launcher"
+		version="1.0.0">
+
+    <name>BrowserLauncher</name>
+    <description>Open links in web browser in Android.</description>
+    <license>Apache 2.0</license>
+    <keywords>google,chrome,launcher,browser</keywords>
+	
+
+	<repo>https://github.com/SamirMalpande/acequare-browser-launcher.git</repo>
+    <issue>https://github.com/SamirMalpande/acequare-browser-launcher/issues</issue>
+
+    <js-module src="www/BrowserLauncher.js" name="BrowserLauncher">
+        <clobbers target="window.BrowserLauncher" />
+    </js-module>
+ 
+    <!-- android -->
+    <platform name="android">
+		<config-file target="res/xml/config.xml" parent="/*">
+            <feature name="BrowserLauncher">
+                <param name="android-package" value="com.acequare.browserlauncher.BrowserLauncher"/>
+            </feature>   
+        </config-file>
+        
+        <source-file src="src/android/BrowserLauncher.java" target-dir="src/com/acequare/browserlauncher" />
+        
+    </platform>
+
+</plugin>
