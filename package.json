@@ -1,18 +1,29 @@
 {
-    "version": "1.0.0",
-    "name": "cordova-browser-launcher",
-    "cordova_name": "BrowserLauncher",
-    "description": "Cordova Plugin to Open URL's in Android System Browser",
-    "license": "Apache 2.0",
-    "keywords": [
-        "google",
-        "chrome",
-        "launcher",
-        "browser",
-		"firefox",
-		"opera",
-		"link",
-		"url",
-    ],
-    "engines": []
+  "name": "cordova-browser-launcher",
+  "version": "1.0.0",
+  "description": "Open links in web browser in Android.",
+  "cordova": {
+    "id": "cordova-browser-launcher",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acequare/cordova-browser-launcher.git"
+  },
+  "keywords": [
+    "google",
+    "chrome",
+    "launcher",
+    "browser",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Samir Malpande <samir@acequare.com>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/acequare/cordova-browser-launcher/issues"
+  },
+  "homepage": "https://github.com/acequare/cordova-browser-launcher#readme"
 }
